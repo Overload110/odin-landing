@@ -4,7 +4,7 @@ body{
     margin: 0px;
     font-family: monospace;
 }
-.header img{
+.header img, .logo img{
     height:10%;
     width: 10%;
     
