@@ -10,8 +10,6 @@ body{
     
 }
 
-
-
 .description{
     width: 300px;
 }
@@ -24,10 +22,6 @@ ul{
     padding: 0px;
 }
 
-#footer a{
-    border-style: solid;
-    border-width: 5px;
-}
 
 a{
     color: white;
@@ -54,26 +48,31 @@ h3{
     padding: 10px;
     margin: 0px;
 }
-.image img{
-    height:500px;
-    width: auto;
-    border-radius: 10px;
-}
 
+.list-item{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
 
 .list{
     display: flex;
     justify-content: space-evenly;
     flex: 0 1 100%;
+    gap: 8px;
 }
 
 .list-header{
     text-align: center;
 }
 
-#list-section img{
-    max-width: 300px;
-    flex-shrink: 1;
+img{
+    width: 300px;
+}
+
+#list-section img, .image img{
+    max-width: 100%;
+    flex: 1;
     border-radius: 20px;
 }
 
