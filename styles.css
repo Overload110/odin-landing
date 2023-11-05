@@ -4,11 +4,13 @@ body{
     margin: 0px;
     font-family: monospace;
 }
-img{
+.header img{
     height:10%;
     width: 10%;
     
 }
+
+
 
 .description{
     width: 300px;
@@ -70,8 +72,8 @@ h3{
 }
 
 #list-section img{
-    height:200px;
-    width: auto;
+    max-width: 300px;
+    flex-shrink: 1;
     border-radius: 20px;
 }
 
